@@ -17,7 +17,7 @@ def build_data():
 
     :return: train_data, valid_data
     '''
-    smiles_file_path = '/home/liyuanpeng/Desktop/EGFR/20/all.xlsx'
+    smiles_file_path = './all.xlsx'
     column_name = ['ames_toxicity', 'cyp_3a4', 'cyp_2d6', 'cyp_2c9', 'bbb', 'p_glycoprotein',
                    'hia', 'renal_drug_to_drug', 'biodegradability', 'cell_permeability',
                    'tetrahymena_pyriformis', 'solubility']
